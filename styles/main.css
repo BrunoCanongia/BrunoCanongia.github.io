@@ -42,3 +42,15 @@ a {
 footer {
     padding: 30px 0;
 }
+
+@media (max-width: 1080px) {
+    canvas {
+        box-sizing: border-box;
+        width: 90%;
+    }
+
+    #rules {
+        width: 90%;
+        margin-top: 10px;
+    }
+  }
