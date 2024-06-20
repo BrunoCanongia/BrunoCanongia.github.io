@@ -1,7 +1,7 @@
 # Conway's Game Of Life
 
 Javascript implementation. I hope you like it!  
-it's a very simple algorithm and very cool to code.
+It's a very simple algorithm and very cool to code.
 
 Demo here:  
 [Implementation](https://brunocanongia.github.io)
