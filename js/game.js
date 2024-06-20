@@ -19,7 +19,7 @@ const initialState = () => {
     for (let i = 0; i < numCellsX; i++) {
         board[i] = []; // Initialize each row as an empty array
         for (let j = 0; j < numCellsY; j++) {
-            board[i][j] = (Math.floor(Math.random() * 4) == 0) ? 1 : 0;
+            board[i][j] = (Math.floor(Math.random() * 6) == 0) ? 1 : 0;
         }
     }
 }
