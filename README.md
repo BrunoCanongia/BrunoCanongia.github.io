@@ -1,7 +1,7 @@
 # Conway's Game Of Life
 
-Javascript implementation. I hope you like it!
+Javascript implementation. I hope you like it!  
 it's a very simple algorithm and very cool at the same time.
 
-More info on Wikipedia:
+More info on Wikipedia:  
 [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
