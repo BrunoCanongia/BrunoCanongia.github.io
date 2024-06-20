@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Game</title>
+</head>
+<body>
+    <h1>CONWAY'S GAME OF LIFE</h1>
+    
+    <canvas id="myCanvas"> </canvas>
+    <div id="rules">
+        <h2>RULES</h2>
+        <p>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</p>
+        <p>Any live cell with two or three live neighbours lives on to the next generation.</p>
+        <p>Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
+        <p>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+        <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Wikipedia - Conway's Game of Life</a>
+    </div>
+    <footer>
+        <p>Programmed by: <a href="https://github.com/BrunoCanongia/" target="_blank">Brunoid</a></p>
+    </footer>
+</body>
+</html>
+
+<script src="js/game.js"></script>
